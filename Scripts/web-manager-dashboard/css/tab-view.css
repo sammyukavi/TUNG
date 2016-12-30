@@ -1,0 +1,77 @@
+
+html, body{ background-color: #FFFFFF;color: #000000;}
+
+div.content
+{
+top: 80px;
+	width: 1020px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background-color: #00a0b0;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	position: relative; /* adding position: relative allows you to position the two sidebars relative to this container */
+	padding: 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+div.TabView
+{
+  font-family: Verdana, Sans-Serif;
+  font-size:   12px;
+}
+
+
+/* ***** Tabs *************************************************************** */
+
+div.TabView div.Tabs
+{
+  height: 22px;
+}
+
+div.TabView div.Tabs a
+{
+  display: block;
+  float:    left;
+
+  margin-right: 1px;
+
+  width: 100px;
+  text-align: center;
+
+  height:      22px;
+  line-height: 21px;
+  
+  vertical-align: middle;
+
+  text-decoration: none;
+  font-weight: 900;
+  color:   #004040;
+  cursor:  pointer;
+}
+
+div.TabView div.Tabs a.Current,
+div.TabView div.Tabs a.Current:hover
+{
+  margin-top: 01px;
+  height:     21px;
+  background: url('../images/tab-view.png') no-repeat 0px   0px;
+  cursor:  default;
+}
+
+
+/* ***** Pages ************************************************************** */
+
+div.TabView div.Pages
+{
+  clear: both;
+
+  border: 1px solid #404040;
+  border-top: solid #404040;
+
+  background: #FCFCFC;
+}
+
+div.TabView div.Pages                  { overflow: hidden; }
+div.TabView div.Pages div.Page         { overflow:   auto; }
+div.TabView div.Pages div.Page div.Pad { padding: 7px 7px; }

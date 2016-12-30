@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+html {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+form ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+form ul li {
+margin: .9em 0 0 0;
+padding: 0;
+}
+
+form * {
+line-height: 1em;
+}
+
+input, select, textarea {
+display: block;
+margin: 0;
+padding: .4em;
+width: 80%;
+}
+
+input {
+font-size: .9em;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+select {
+font-size: .9em;
+width: 87%;
+}
+
+#formInput
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:97%;
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+#dataTable
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#dataTable td, #dataTable th 
+{
+font-size:1.2em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#dataTable th 
+{
+font-size:1.4em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#fff;
+}
+#dataTable tr.alt td 
+{
+color:#000;
+background-color:#EAF2D3;
+}
+
+#links 
+{
+width:150px;
+height:50px;
+
+}
+
+
+body
+{
+background-color: #969696;
+background-image: url(../images/login_bkgrnd.png);
+color: #000000;
+}
+
+#userDiv
+{
+position: absolute;
+top: 20px;
+right:110px;
+padding: 10px 10px 10px 10px; /* padding keeps the content of the div away from the edges */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+color:#000;
+background-color:#EAF2D3;
+width:250px;
+}
+
+#wb_Image{
+position: absolute;
+top: 10px;
+left:0px;
+padding: 10px 10px 10px 10px; /* padding keeps the content of the div away from the edges */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+#supermarketView{
+position: absolute;
+top: 300px;
+left:10px;
+padding: 10px 10px 10px 10px; /* padding keeps the content of the div away from the edges */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+width:180px;
+color:#000;
+background-color:#EAF2D3;
+}
+
+
+#wb_logos{
+position: absolute;
+top: 26px;
+left:340px;
+padding: 10px 10px 10px 10px; /* padding keeps the content of the div away from the edges */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+width: -4px;
+}
+
+
+
+div.content
+{
+position: absolute;
+top: 135px;
+left:236px;
+width: 1000px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+padding: 10px 10px 10px 10px; /* padding keeps the content of the div away from the edges */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+#error
+{
+	color: #F00;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	
+}
+
+div.TabView
+{
+/* ***
+font-family: Verdana, Sans-Serif;  **/
+font-size:   13px;
+}
+
+
+
+/* ***** Tabs *************************************************************** */
+
+div.TabView div.Tabs
+{
+height: 22px;
+}
+
+div.TabView div.Tabs a
+{
+display: block;
+float:    left;
+
+margin-right: 1px;
+
+width: 100px;
+text-align: center;
+
+height:      22px;
+line-height: 21px;
+
+vertical-align: middle;
+
+text-decoration: none;
+font-weight: 900;
+color:   #004040;
+cursor:  pointer;
+}
+
+div.TabView div.Tabs a.Current,
+div.TabView div.Tabs a.Current:hover
+{
+margin-top: 01px;
+height:     21px;
+background: url('../images/tab-view.png') no-repeat 0px   0px;
+cursor:  default;
+}
+
+
+/* ***** Pages ************************************************************** */
+
+div.TabView div.Pages
+{
+clear: both;
+
+border: 1px solid #404040;
+border-top: solid #404040;
+
+background: #FCFCFC;
+}
+
+div.TabView div.Pages                  { overflow: hidden; }
+div.TabView div.Pages div.Page         { overflow:   auto; }
+div.TabView div.Pages div.Page div.Pad { padding: 7px 7px; }
+
+/* Submit buttons */
+
+.buttons {
+text-align: center;
+
+}
+
+input[type="submit"] {
+display: inline;
+margin: 0 0px;
+padding: 10px;
+border: 2px solid #7c412b;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px; 
+border-radius: 5px;
+-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+color: #fff;
+background: #ef7d50;
+font-weight: bold;
+-webkit-appearance: none;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active {
+cursor: pointer;
+background: #fff;
+color: #ef7d50;
+}
+
+input[type="submit"]:active {
+background: #eee;
+-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}
+
+input[type="button"] {
+display: inline;
+margin: 0 0px;
+padding: 10px;
+border: 2px solid #7c412b;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px; 
+border-radius: 5px;
+-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+color: #fff;
+background: #ef7d50;
+font-weight: bold;
+-webkit-appearance: none;
+}
+
+input[type="button"]:hover, input[type="button"]:active {
+cursor: pointer;
+background: #fff;
+color: #ef7d50;
+}
+
+input[type="button"]:active {
+background: #eee;
+-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}

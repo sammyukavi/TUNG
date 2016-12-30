@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+background-color: #969696;
+background-image: url(../images/login_bkgrnd.png);
+color: #000000;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#wb_Image
+{
+position:absolute;
+left:31px;
+width:268px;
+height:314px;
+z-index:0;
+padding:0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+top: 87px;
+
+}
+#content
+{
+top: 200px;
+width: 665px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+background-color: #CCC;
+margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+position: relative; /* adding position: relative allows you to position the two sidebars relative to this container */
+padding: 100px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-align: left; /* this overrides the text-align: center on the body element. */
+left: 55px;
+}
+
+#loginDiv
+{  
+top: 13px;
+width: 551px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+height:177px; 
+background-color: #FFF;
+position: absolute; /* adding position: relative allows you to position the two sidebars relative to this container */
+padding: 0px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-align:  center; /* this overrides the text-align: center on the body element. */
+left: 174px;
+z-index:1;
+
+}
+
+#logos
+{
+border-spacing: 0px;
+width: 100%;
+}
+#logos .figure
+{
+padding: 0px 0px 0px 0px;
+text-align: right;
+vertical-align: top;
+}
+#logos .figure img
+{
+border-width: 0;
+}
+#wb_Text1 
+{
+background-color: transparent;
+border: 0px #000000 solid;
+padding: 0;
+}
+#wb_Text1 div
+{
+text-align: left;
+}
+/* Submit buttons */
+
+.buttons {
+text-align: center;
+
+}
+
+input[type="submit"] {
+margin: 0 0px;
+padding: 10px;
+border: 2px solid #7c412b;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px; 
+border-radius: 5px;
+-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+color: #fff;
+background: #ef7d50;
+font-weight: bold;
+width: 80%;
+-webkit-appearance: none;
+
+}
+
+input[type="submit"]:hover, input[type="submit"]:active {
+cursor: pointer;
+background: #fff;
+color: #ef7d50;
+}
+
+input[type="submit"]:active {
+background: #eee;
+-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}
+
+input, select, textarea {
+display: block;
+margin: 0;
+padding: .4em;
+width: 80%;
+}
+
+input {
+font-size: .9em;
+moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
